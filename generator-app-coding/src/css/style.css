@@ -1,0 +1,61 @@
+body{
+    background-color: var(--background);
+    font-family: 'Manrope', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--advice-card);
+    border-radius: 10px;
+    margin: 20px;
+    width: 345px;
+}
+
+.app .advice{
+    color: var(--advice-dice);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+.app .mensage{
+    display: flex;
+    padding: 23px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--text);
+}
+
+.app .divider{
+    display: flex;
+    height: 11px;
+}
+
+
+.app .dice{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice);
+    transform: translateY(50%);
+    
+}
+
+.app .dice:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice);
+}
+
+
+
